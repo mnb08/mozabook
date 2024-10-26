@@ -1,0 +1,23 @@
+.btn {
+    cursor: pointer;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background: #006ffd;
+    &__value {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30.26px;
+        margin: 0 20px 0 0;
+    }
+
+    &:last-child {
+        margin: 0 0 0 50px;
+        background: none;
+        color: #006ffd;
+        border: 2px solid #006ffd;
+    }
+}
